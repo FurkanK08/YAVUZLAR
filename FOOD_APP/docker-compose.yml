@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "80:80"
+    volumes:
+      - .:/var/www/html
+      - sqlite_data:/path/to/sqlite
+
+volumes:
+  sqlite_data:

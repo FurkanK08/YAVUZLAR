@@ -1,0 +1,44 @@
+body{
+    background-image: url('../image/pexels-ella-olsson-572949-1640773.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    flex-direction: column;
+   
+    
+}
+strong{
+    color: crimson;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+    justify-content: center;
+    background-color: #dddddd;
+    width: 50½;
+  }
+  
+  td, th {
+    text-align: center;
+    border: 1px solid ghostwhite;
+    text-align: left;
+    padding: 8px;
+    vertical-align: middle;
+    
+  }
+
+
+  input{
+      text-align: center;
+      border: 1px solid ghostwhite;
+      text-align: left;
+      padding: 8px;
+      border-radius: 10px;
+
+  }
