@@ -1,0 +1,5 @@
+* Dosyayı Git Clone ile indirin 
+git clone https://github.com/FurkanK08/YAVUZLAR.git
+* Terminalden projenin olduğu dizine gelip 
+docker build -t FOOD_APP . 
+docker-compose up komutlarını çalıştırısanız proje çalışır
